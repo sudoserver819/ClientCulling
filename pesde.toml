@@ -1,0 +1,7 @@
+name = "sudoserver819/cull"
+version = "0.1.0"
+license = "MIT"
+description = "Client-side distance culling module with no external dependencies."
+
+[target]
+environment = "roblox"
