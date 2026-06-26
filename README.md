@@ -70,6 +70,12 @@ local ClientCulling = require(ReplicatedStorage.Shared.ClientCulling)
 ClientCulling.Start()
 ```
 
+Or through wally
+
+```
+cull = "sudoserver819/cull@0.1.1"
+```
+
 ## Basic Usage
 
 ```luau
