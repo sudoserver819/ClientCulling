@@ -75,6 +75,8 @@ export type CullableEntry = {
 type Callback = (Instance) -> ()
 
 local ClientCulling = {}
+ClienCulling.Tag = CULL_TAG
+ClientCulling.ShadowTag = CULL_SHADOWS_TAG
 
 ClientCulling._items = {} :: { [Instance]: CullableEntry }
 ClientCulling._running = false

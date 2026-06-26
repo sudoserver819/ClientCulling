@@ -1,0 +1,12 @@
+[project]
+name = "CULL"
+changelog = "CHANGELOG.md"
+categories = [
+    "Added",
+    "Changed",
+    "Deprecated",
+    "Removed",
+    "Fixed",
+    "Security",
+]
+required_categories = []
